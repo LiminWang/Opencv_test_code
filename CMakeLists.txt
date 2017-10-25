@@ -10,4 +10,5 @@ ENDMACRO()
 add_target(laplace)
 add_target(canny)
 add_target(sobel)
+add_target(histogram_qualization)
 
