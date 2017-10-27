@@ -7,6 +7,7 @@ MACRO(add_target name)
     TARGET_LINK_LIBRARIES(${name} ${OpenCV_LIBS} )
 ENDMACRO()
 
+add_target(video_capture)
 add_target(laplace)
 add_target(canny)
 add_target(sobel)
